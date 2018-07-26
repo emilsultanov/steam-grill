@@ -1,0 +1,500 @@
+#campfood{
+	width: 100%;
+	height: auto;
+
+	.container{
+		width: 1000px;
+		height: auto;
+		margin: 30px auto 0;
+
+
+		h1{
+			color: $color7;
+			font-size: 30px;
+		}
+
+		.first{
+			width: 230px;
+			height: 500px;
+			float: left;
+			margin-top: 30px;
+
+			.post-thumb{
+				width: 230px;
+				height: 145px;
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					height: 145px;
+					background: url('../images/thumb-1 (2).jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			.post-main{
+				width: 230px;
+
+				.meta-author{
+					display: block;
+					width: auto;
+					padding: 10px;
+					border-bottom: 1px solid #ddd;
+					margin-top: 10px;
+
+					a{
+						text-decoration: none;
+						color: $color1;
+						font-family: verdana;
+						font-size: 13px;
+						font-style: italic;
+					}
+				}
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					color: $color5;
+					font-size: 30px;
+					margin-top: 20px;
+				}
+
+				p{
+					display: block;
+					width: 230px;
+					color: $color6;
+					margin-top: 20px;
+					line-height: 1.2;
+				}
+			}
+		}
+
+		.second{
+			width: 230px;
+			height: 500px;
+			margin-left: 26.65px;
+			float: left;
+			margin-top: 30px;
+
+			.post-thumb{
+				width: 230px;
+				height: 145px;
+				
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					height: 145px;
+					background: url('../images/thumb-2 (2).jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			.post-main{
+				width: 230px;
+
+				.meta-author{
+					display: block;
+					width: auto;
+					padding: 10px;
+					border-bottom: 1px solid #ddd;
+					margin-top: 10px;
+
+					a{
+						text-decoration: none;
+						color: $color1;
+						font-family: verdana;
+						font-size: 13px;
+						font-style: italic;
+					}
+				}
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					color: $color5;
+					font-size: 30px;
+					margin-top: 20px;
+				}
+
+				p{
+					display: block;
+					width: 230px;
+					color: $color6;
+					margin-top: 20px;
+					line-height: 1.2;
+				}
+			}
+		}
+
+		.third{
+			width: 230px;
+			height: 500px;
+			margin-left: 26.65px;
+			float: left;
+			margin-top: 30px;
+
+			.post-thumb{
+				width: 230px;
+				height: 145px;
+				
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					height: 145px;
+					background: url('../images/thumb-3 (2).jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			.post-main{
+				width: 230px;
+
+				.meta-author{
+					display: block;
+					width: auto;
+					padding: 10px;
+					border-bottom: 1px solid #ddd;
+					margin-top: 10px;
+
+					a{
+						text-decoration: none;
+						color: $color1;
+						font-family: verdana;
+						font-size: 13px;
+						font-style: italic;
+					}
+				}
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					color: $color5;
+					font-size: 30px;
+					margin-top: 20px;
+				}
+
+				p{
+					display: block;
+					width: 230px;
+					color: $color6;
+					margin-top: 20px;
+					line-height: 1.2;
+				}
+			}
+		}
+
+		.fourth{
+			width: 230px;
+			height: 500px;
+			margin-left: 26.65px;
+			float: left;
+			margin-top: 30px;
+
+			.post-thumb{
+				width: 230px;
+				height: 145px;
+				
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					height: 145px;
+					background: url('../images/thumb-4 (1).jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			.post-main{
+				width: 230px;
+
+				.meta-author{
+					display: block;
+					width: auto;
+					padding: 10px;
+					border-bottom: 1px solid #ddd;
+					margin-top: 10px;
+
+					a{
+						text-decoration: none;
+						color: $color1;
+						font-family: verdana;
+						font-size: 13px;
+						font-style: italic;
+					}
+				}
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					color: $color5;
+					font-size: 30px;
+					margin-top: 20px;
+				}
+
+				p{
+					display: block;
+					width: 230px;
+					color: $color6;
+					margin-top: 20px;
+					line-height: 1.2;
+				}
+			}
+		}
+
+		.fifth{
+			width: 230px;
+			height: 500px;
+			float: left;
+			margin-top: 30px;
+
+			.post-thumb{
+				width: 230px;
+				height: 145px;
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					height: 145px;
+					background: url('../images/thumb-5 (1).jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			.post-main{
+				width: 230px;
+
+				.meta-author{
+					display: block;
+					width: auto;
+					padding: 10px;
+					border-bottom: 1px solid #ddd;
+					margin-top: 10px;
+
+					a{
+						text-decoration: none;
+						color: $color1;
+						font-family: verdana;
+						font-size: 13px;
+						font-style: italic;
+					}
+				}
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					color: $color5;
+					font-size: 30px;
+					margin-top: 20px;
+				}
+
+				p{
+					display: block;
+					width: 230px;
+					color: $color6;
+					margin-top: 20px;
+					line-height: 1.2;
+				}
+			}
+		}
+
+		.sixth{
+			width: 230px;
+			height: 500px;
+			margin-left: 26.65px;
+			float: left;
+			margin-top: 30px;
+
+			.post-thumb{
+				width: 230px;
+				height: 145px;
+				
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					height: 145px;
+					background: url('../images/thumb-6 (1).jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			.post-main{
+				width: 230px;
+
+				.meta-author{
+					display: block;
+					width: auto;
+					padding: 10px;
+					border-bottom: 1px solid #ddd;
+					margin-top: 10px;
+
+					a{
+						text-decoration: none;
+						color: $color1;
+						font-family: verdana;
+						font-size: 13px;
+						font-style: italic;
+					}
+				}
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					color: $color5;
+					font-size: 30px;
+					margin-top: 20px;
+				}
+
+				p{
+					display: block;
+					width: 230px;
+					color: $color6;
+					margin-top: 20px;
+					line-height: 1.2;
+				}
+			}
+		}
+
+		.seventh{
+			width: 230px;
+			height: 500px;
+			margin-left: 26.65px;
+			float: left;
+			margin-top: 30px;
+
+			.post-thumb{
+				width: 230px;
+				height: 145px;
+				
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					height: 145px;
+					background: url('../images/thumb-7.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			.post-main{
+				width: 230px;
+
+				.meta-author{
+					display: block;
+					width: auto;
+					padding: 10px;
+					border-bottom: 1px solid #ddd;
+					margin-top: 10px;
+
+					a{
+						text-decoration: none;
+						color: $color1;
+						font-family: verdana;
+						font-size: 13px;
+						font-style: italic;
+					}
+				}
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					color: $color5;
+					font-size: 30px;
+					margin-top: 20px;
+				}
+
+				p{
+					display: block;
+					width: 230px;
+					color: $color6;
+					margin-top: 20px;
+					line-height: 1.2;
+				}
+			}
+		}
+
+		.eighth{
+			width: 230px;
+			height: 500px;
+			margin-left: 26.65px;
+			float: left;
+			margin-top: 30px;
+
+			.post-thumb{
+				width: 230px;
+				height: 145px;
+				
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					height: 145px;
+					background: url('../images/thumb-8.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			.post-main{
+				width: 230px;
+
+				.meta-author{
+					display: block;
+					width: auto;
+					padding: 10px;
+					border-bottom: 1px solid #ddd;
+					margin-top: 10px;
+
+					a{
+						text-decoration: none;
+						color: $color1;
+						font-family: verdana;
+						font-size: 13px;
+						font-style: italic;
+					}
+				}
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					color: $color5;
+					font-size: 30px;
+					margin-top: 20px;
+				}
+
+				p{
+					display: block;
+					width: 230px;
+					color: $color6;
+					margin-top: 20px;
+					line-height: 1.2;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,378 @@
+#recipes{
+	width: 100%;
+	height: auto;
+
+
+	.container{
+		width: 1000px;
+		height: auto;
+		margin: 50px auto 0;
+
+		.recipes{
+			color: $color7;
+			font-size: 30px;
+		}
+
+		.top-left{
+			width: 484px;
+			height: 260px;
+			float: left;
+			border-right: 1px solid #ddd;
+			padding-right: 15px;
+			margin-top: 50px;
+
+			.thumb-block{
+				width: 230px;
+				height: 180px;
+				float: left;
+
+				a{
+					text-decoration: none;
+					width: 230px;
+					height: 180px;
+					display: block;
+					background: url('../images/thumb-1 (1).jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			.post-main{
+				width: 230px;
+				height: 250px;
+				float: right;
+
+				a{
+					display: block;
+					width: 230px;
+					text-decoration: none;
+					color: $color5;
+					font-size: 30px;
+				}
+
+				p{
+					display: block;
+					width: 230px;
+					color: $color6;
+					font-size: 18px;
+					margin-top: 20px;
+				}
+
+				.meta-author{
+					display: block;
+					width: auto;
+					margin-top: 20px;
+
+					a{
+						text-decoration: none;
+						color: $color1;
+						font-style: italic;
+						font-family: verdana;
+						font-size: 12px;
+					}
+				}
+			}
+		}
+
+		.top-right{
+			width: 485px;
+			height: 260px;
+			float: left;
+			padding-left: 15px;
+			margin-top: 50px;
+
+			.thumb-block{
+				width: 230px;
+				height: 180px;
+				float: left;
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					height: 180px;
+					background: url('../images/thumb-2 (1).jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			.post-main{
+				width: 230px;
+				height: 250px;
+				float: right;
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					color: $color5;
+					font-size: 30px;
+				}
+
+				p{
+					display: block;
+					width: 230px;
+					color: $color6;
+					font-size: 18px;
+					margin-top: 20px;
+				}
+
+				.meta-author{
+					display: block;
+					width: auto;
+					margin-top: 20px;
+
+					a{
+						text-decoration: none;
+						color: $color1;
+						font-size: 13px;
+						font-style: italic;
+
+					}
+				}
+			}
+		}
+
+		.middle-left{
+			width: 484px;
+			height: 260px;
+			float: left;
+			border-right: 1px solid #ddd;
+			margin-top: 50px;
+			padding-right: 15px;
+
+			.post-main{
+				width: 230px;
+				height: 250px;
+				float: left;
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					color: $color5;
+					font-size: 30px;
+				}
+
+				p{
+					display: block;
+					width: 230px;
+					color: $color6;
+					font-size: 18px;
+					margin-top: 20px;
+				}
+
+				.meta-author{
+					display: block;
+					width: auto;
+					margin-top: 20px;
+
+					a{
+						text-decoration: none;
+						color: $color1;
+						font-size: 13px;
+						font-style: italic;
+					}
+				}
+			}
+
+			.thumb-block{
+				width: 230px;
+				height: 180px;
+				float: right;
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					height: 180px;
+					background: url('../images/thumb-3 (1).jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+		}
+
+		.middle-right{
+			width: 485px;
+			height: 260px;
+			float: left;
+			padding-left: 15px;
+			margin-top: 50px;
+
+			.post-main{
+				width: 230px;
+				height: 250px;
+				float: left;
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					color: $color5;
+					font-size: 30px;
+				}
+
+				p{
+					display: block;
+					width: 230px;
+					color: $color5;
+					font-size: 18px;
+					margin-top: 20px;
+					color: $color6;
+				}
+
+				.meta-author{
+					display: block;
+					width: auto;
+					margin-top: 20px;
+
+					a{
+						text-decoration: none;
+						color: $color1;
+						font-size: 13px;
+						font-style: italic;
+					}
+				}
+			}
+
+			.thumb-block{
+				width: 230px;
+				height: 180px;
+				float: right;
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					height: 180px;
+					background: url('../images/thumb-4.jpg') center center;
+					background-size: cover;
+					background-repeat: no-repeat;
+				}
+			}
+		}
+
+		.bottom-left{
+			width: 484px;
+			height: 260px;
+			float: left;
+			border-right: 1px solid #ddd;
+			padding-right: 15px;
+			margin-top: 50px;
+
+			.thumb-block{
+				width: 230px;
+				height: 180px;
+				float: left;
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					height: 180px;
+					background: url('../images/thumb-5.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			.post-main{
+				width: 230px;
+				height: 250px;
+				float: right;
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					color: $color5;
+					font-size: 30px;
+				}
+
+				p{
+					display: block;
+					width: 230px;
+					color: $color6;
+					font-size: 18px;
+					margin-top: 20px;
+				}
+
+				.meta-author{
+					display: block;
+					width: auto;
+					margin-top: 20px;
+
+					a{
+						text-decoration: none;
+						color: $color1;
+						font-size: 13px;
+						font-style: italic;
+						font-family: verdana;
+					}
+				}
+			}
+		}
+
+		.bottom-right{
+			width: 485px;
+			height: 260px;
+			float: left;
+			padding-left: 15px;
+			margin-top: 50px;
+
+			.thumb-block{
+				width: 230px;
+				height: 180px;
+				float: left;
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					height: 180px;
+					background: url('../images/thumb-6.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			.post-main{
+				width: 230px;
+				height: 250px;
+				float: right;
+
+				a{
+					text-decoration: none;
+					display: block;
+					width: 230px;
+					color: $color5;
+					font-size: 30px;
+				}
+
+				p{
+					display: block;
+					width: 230px;
+					font-size: 18px;
+					margin-top: 20px;
+					color: $color6;
+				}
+
+				.meta-author{
+					display: block;
+					width: auto;
+					margin-top: 20px;
+
+					a{
+						text-decoration: none;
+						color: $color1;
+						font-size: 13px;
+						font-style: italic;
+						font-family: verdana;
+					}
+				}
+			}
+		}
+	}
+}
