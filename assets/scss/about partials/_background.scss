@@ -1,0 +1,51 @@
+
+#background{
+	width: 100%;
+	height: $height9;
+	background: url('../images/contact-cover.jpg') center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+
+	.container{
+		width: 1000px;
+		height: 110px;
+		margin: 50px auto 0;
+
+		.tobe{
+			font-family: verdana;
+			font-size: 28px;
+			color: white;
+		}
+
+		.closer{
+			font-size: 33px;
+			font-family: arial;
+			color: white;
+			text-transform: uppercase;
+			line-height: 1.4;
+		}
+
+		a{
+			display: inline-block;
+			width: 50px;
+			height: 30px;
+			text-align: left;
+			line-height: 30px;
+			text-decoration: none;
+			font-weight: bold;
+			color: white;
+			font-size: 20px;
+
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+
+		span{
+			font-weight: bold;
+			color: white;
+			font-size: 20px;
+		}
+	}
+}

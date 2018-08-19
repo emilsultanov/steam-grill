@@ -1,0 +1,96 @@
+@font-face{
+	font-family: emil;
+	src: url('../fonts/GreatVibes-Regular.ttf');
+}
+
+header{
+	width: 100%;
+	height: $height1;
+
+	.container{
+		width: 1000px;
+		height: auto;
+		margin: 0 auto;
+
+		.header-form{
+			margin-top: 50px;
+			width: auto;
+			height: auto;
+			display: inline-block;
+
+			input{
+				width: 150px;
+				height: 10px;
+				border: none;
+				background: $color1;
+				padding: 15px;
+				font-style: italic;
+				color: white;
+				float: left;
+			}
+
+			button{
+				width: 60px;
+				height: 40px;
+				border: none;
+				background: $color1;
+				float: left;
+
+				i{
+					color: white;
+					font-size: 15px;
+				}
+			}
+		}
+
+		.header-middle{
+			width: auto;
+			height: auto;
+			display: inline-block;
+			text-align: center;
+			margin-left: 40px;
+
+			a{
+				text-decoration: none;
+				font-family: emil;
+				font-size: 35px;
+				
+				h1{
+					color: $color1;
+
+					span{
+						color: red;
+					}
+				}
+			}
+
+			p{
+				a{
+					color: $color1;
+				}
+			}
+		}
+
+		.header-right{
+			width: auto;
+			height: auto;
+			display: inline-block;
+			margin-left: 70px;
+			text-align: center;
+
+			a{
+				text-decoration: none;
+				color: $color3;
+				
+				i{
+					letter-spacing: 9px;
+				}
+			}
+
+			p{
+				line-height: 2;
+				font-weight: bold;
+			}
+		}
+	}
+}

@@ -1,0 +1,1573 @@
+.container-content{
+	width: 1000px;
+	height: 2000px;
+	margin: auto;
+
+	.main-content{
+		width: 730px;
+		height: auto;
+		float: left;
+		padding-right: 20px;
+
+		.header-content{
+			width: 730px;
+			height: 170px;
+			text-align: center;
+
+			.header-level{
+				display: inline-block;
+				width: 210px;
+				height: 25px;
+				background: $color1;
+				color: white;
+				padding: 0 10px;
+				border-radius: 25px;
+				text-transform: uppercase;
+				line-height: 25px;
+				font-size: 13px;
+				font-family: lato;
+			}
+
+			h1{
+				font-size: 33px;
+				width: 580px;
+				line-height: 1.3;
+				margin: 10px auto;
+				word-spacing: 2px;
+				letter-spacing: 1px;
+			}
+
+			p{
+				font-style: italic;
+				color: $color3;
+				font-size: 18px;
+				word-spacing: 1px;
+				letter-spacing: 1px;
+
+				.same-level{
+					text-decoration: none;
+					color: $color1;
+
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+
+		.article-content{
+			width: 730px;
+			height: auto;
+
+			figure{
+
+				img{
+					width: 730px;
+					height: 480px;
+					background-position:  center center;
+					background-repeat: no-repeat;
+					background-size: contain;
+				}
+
+				figcaption{
+					margin-top: 30px;
+					display: block;
+					font-family: 'Lato', sans-serif;
+					font-size: 18px;
+					font-style: normal;
+					color: $color5;
+					line-height: 1.5;
+					word-spacing: 1.5px;
+
+					&::first-letter{
+						font-size: 35px;
+						float: left;
+						color: black;
+						font-weight: bold;
+						margin-right: 5px;
+						line-height: 1.2;
+					}
+				}
+			}
+
+			.text-level{
+				clear: both;
+				width: 720px;
+				height: 135px;
+				margin-top: 20px;
+				border-left: 10px solid $color1;
+				background: #f9f9f9;
+				
+
+				&::before{
+					color: #8dc63f;
+    				content: open-quote;
+    				font-family: 'Lato', sans-serif;
+    				font-size: 50px;
+    				float: left;
+    				margin: 15px;
+    			}
+				
+				.text-level-1{
+					font-size: 18px;
+					font-family: 'Lato', sans-serif;
+					color: $color5;
+					line-height: 1.5;
+					word-spacing: 1.5px;
+					padding-top: 25px;
+				}
+			}
+
+			.text-level-2{
+				margin-top: 10px;
+				font-size: 18px;
+				font-family: 'Lato', sans-serif;
+				color: $color5;
+				line-height: 1.5;
+				word-spacing: 1.5px;
+				padding-top: 25px;
+			}
+		}
+
+		.text-header{
+			font-size: 30px;
+			margin-top: 35px;
+		}
+
+		.text-content{
+			margin-top: 20px;
+			font-family: 'Lato', sans-serif;
+			font-size: 18px;
+			color: $color5;
+			line-height: 1.5;
+			word-spacing: 1px;
+		}
+
+		.location{
+			width: 730px;
+			height: 46px;
+			border-top: 1px solid #ddd;
+			border-bottom: 4px double #ddd;
+			margin-top: 20px;
+			font-family: 'Lato', sans-serif;
+
+
+			.left-block{
+				width: 95px;
+				height: 46px;
+				float: left;
+				line-height: 46px;
+
+			}
+
+			.right-block{
+				width: auto;
+				height: 46px;
+				float: right;
+				line-height: 46px;
+				i{
+					margin-right: 10px;
+
+					&:hover{
+						color: $color1;
+					}
+				}
+			}
+		}
+
+		.best-authors{
+			width: 730px;
+			height: 345px;
+
+			h1{
+				text-align: center;
+				text-transform: uppercase;
+				font-size: 30px;
+				padding-top: 20px;
+			}
+
+			.authors{
+				width: 730px;
+				height: auto;
+				margin-top: 20px;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-between;
+
+				.founder{
+					width: 140px;
+					height: 290px;
+					text-align: center;
+
+					.founder1{
+						display: block;
+						width: 140px;
+						height: 210px;
+						background: url('../images/author-thumb-1.jpg') center center;
+						background-repeat: no-repeat;
+						background-size: cover;
+					}
+
+					h2{
+						color: $color1;
+						text-transform: uppercase;
+						font-family: 'Lato', sans-serif;
+						font-size: 13px;
+						font-weight: bold;
+						margin-top: 10px;
+						letter-spacing: 1.5px;
+					}
+
+					p{
+						font-size: 20px;
+						font-family: 'Lato', sans-serif;
+						letter-spacing: 1px;
+						word-spacing: 1px;
+						margin-top: 5px;
+
+					}
+				}
+
+				.journalist{
+					width: 140px;
+					height: 290px;
+					text-align: center;
+
+					.journalist1{
+						display: block;
+						width: 140px;
+						height: 210px;
+						background: url('../images/author-thumb-2.jpg') center center;
+						background-repeat: no-repeat;
+						background-size: cover;
+					}
+
+					h2{
+						color: $color1;
+						text-transform: uppercase;
+						font-family: 'Lato', sans-serif;
+						font-size: 13px;
+						font-weight: bold;
+						margin-top: 10px;
+						letter-spacing: 1.5px;
+					}
+
+					p{
+						font-size: 20px;
+						font-family: 'Lato', sans-serif;
+						letter-spacing: 1px;
+						word-spacing: 1px;
+						margin-top: 5px;
+
+					}
+				}
+
+				.blog{
+					width: 140px;
+					height: 290px;
+					text-align: center;
+
+					.blog1{
+						display: block;
+						width: 140px;
+						height: 210px;
+						background: url('../images/author-thumb-3.jpg') center center;
+						background-repeat: no-repeat;
+						background-size: cover;
+					}
+
+					h2{
+						color: $color1;
+						text-transform: uppercase;
+						font-family: 'Lato', sans-serif;
+						font-size: 13px;
+						font-weight: bold;
+						margin-top: 10px;
+						letter-spacing: 1.5px;
+					}
+
+					p{
+						font-size: 20px;
+						font-family: 'Lato', sans-serif;
+						letter-spacing: 1px;
+						word-spacing: 1px;
+						margin-top: 5px;
+
+					}
+				}
+
+				.writer{
+					width: 140px;
+					height: 290px;
+					text-align: center;
+
+					.writer1{
+						display: block;
+						width: 140px;
+						height: 210px;
+						background: url('../images/author-thumb-4.jpg') center center;
+						background-repeat: no-repeat;
+						background-size: cover;
+					}
+
+					h2{
+						color: $color1;
+						text-transform: uppercase;
+						font-family: 'Lato', sans-serif;
+						font-size: 13px;
+						font-weight: bold;
+						margin-top: 10px;
+						letter-spacing: 1.5px;
+					}
+
+					p{
+						font-size: 20px;
+						font-family: 'Lato', sans-serif;
+						letter-spacing: 1px;
+						word-spacing: 1px;
+						margin-top: 5px;
+
+					}
+				}
+			}
+		}
+	}
+
+	aside{
+		width: 250px;
+		height: auto;
+		float: right;
+
+		.widget-level1{
+			width: 250px;
+			height: 445px;
+			text-align: center;
+			border-bottom: 1px solid #ddd;
+
+			.widget-level2{
+				text-transform: uppercase;
+				font-size: 13px;
+				font-weight: bold;
+				font-family: 'Lato', sans-serif;
+				letter-spacing: .5px;
+				word-spacing: 1px;
+			}
+
+			.widget-level3{
+				display: block;
+				width: 200px;
+				height: 200px;
+				background: url('../images/author2.jpg') center center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				margin: 20px auto 0;
+				border-radius: 50%;
+
+			}
+
+			.widget-level4{
+				color: $color5;
+				font-family: emil;
+				text-decoration: none;
+				font-size: 30px;
+				font-weight: bold;
+				display: block;
+				margin-top: 20px;
+			}
+
+			.widget-level5{
+				font-family: 'Lato', sans-serif;
+				color: $color5;
+				line-height: 1.5;
+				width: 230px;
+				margin: 25px auto 0;
+			}
+
+			i{
+				margin: 30px 5px 0;
+
+				&:hover{
+					color: $color1;
+				}
+			}
+		}
+
+		.popular-recipes-level{
+			width: 250px;
+			height: 410px;
+			text-align: center;
+			margin-top: 30px;
+			border-bottom: 1px solid #ddd;
+
+			.level-1{
+				text-transform: uppercase;
+				font-family: 'Lato', sans-serif;
+				color: $color5;
+				font-weight: bold;
+				letter-spacing: .5px;
+				word-spacing: 2px;
+			}
+
+			.level-2{
+				width: 250px;
+				height: auto;
+				list-style: none;
+				margin-top: 15px;
+
+				.level-item-1{
+					width: 250px;
+					height: 90px;
+					margin-top: 30px;
+
+					.level-item-left{
+						width: 90px;
+						height: 90px;
+						float: left;
+
+						a{
+							display: block;
+							width: 90px;
+							height: 90px;
+							background: url('../images/instagram-thumbs-2.jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover; 
+						}
+					}
+
+					.level-item-right{
+						width: 140px;
+						height: 90px;
+						float: right;
+
+						a{
+							text-decoration: none;
+							color: black;
+							font-weight: bold;
+							font-family: 'Lato', sans-serif;
+							line-height: 1.3;
+							word-spacing: 1.5px;
+						}
+
+						.comment{
+							margin-top: 18px;
+							display: block;
+							color: $color6;
+
+							i{
+								margin-right: 3px;
+							}
+
+							i:nth-child(2){
+								margin-left: 5px;
+							}
+						}
+					}
+				}
+
+				.level-item-2{
+					width: 250px;
+					height: 90px;
+					margin-top: 30px;
+
+					.level-item-left{
+						width: 90px;
+						height: 90px;
+						float: left;
+
+						a{
+							display: block;
+							width: 90px;
+							height: 90px;
+							background: url('../images/instagram-thumbs-4.jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover; 
+						}
+					}
+
+					.level-item-right{
+						width: 140px;
+						height: 90px;
+						float: right;
+
+						a{
+							text-decoration: none;
+							color: black;
+							font-weight: bold;
+							font-family: 'Lato', sans-serif;
+							line-height: 1.3;
+							word-spacing: 1.5px;
+						}
+
+						.comment{
+							margin-top: 18px;
+							display: block;
+							color: $color6;
+
+							i{
+								margin-right: 3px;
+							}
+
+							i:nth-child(2){
+								margin-left: 5px;
+							}
+						}
+					}
+				}
+
+				.level-item-3{
+					width: 250px;
+					height: 90px;
+					margin-top: 30px;
+
+					.level-item-left{
+						width: 90px;
+						height: 90px;
+						float: left;
+
+						a{
+							display: block;
+							width: 90px;
+							height: 90px;
+							background: url('../images/instagram-thumbs.jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover; 
+						}
+					}
+
+					.level-item-right{
+						width: 140px;
+						height: 90px;
+						float: right;
+
+						a{
+							text-decoration: none;
+							color: black;
+							font-weight: bold;
+							font-family: 'Lato', sans-serif;
+							line-height: 1.3;
+							word-spacing: 1.5px;
+						}
+
+						.comment{
+							margin-top: 18px;
+							display: block;
+							color: $color6;
+
+							i{
+								margin-right: 3px;
+							}
+
+							i:nth-child(2){
+								margin-left: 5px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.tags-cloud-level{
+			width: 250px;
+			height: 235px;
+			/*background: green;*/
+			margin-top: 20px;
+			border-bottom: 1px solid #ddd;
+
+			.level-1{
+				text-align: center;
+				text-transform: uppercase;
+				font-family: 'Lato', sans-serif;
+				color: $color5;
+				font-weight: bold;
+				letter-spacing: .5px;
+				word-spacing: 2px;
+				margin-top: 25px;
+			}
+
+			.level-2{
+				width: 250px;
+				height: auto;
+				margin-top: 25px;
+
+				a:nth-child(1){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(2){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(3){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(4){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(5){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(6){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(7){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(8){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(9){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(10){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(11){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(12){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(13){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(13){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(14){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(15){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(16){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(17){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+
+				a:nth-child(18){
+					display: inline-block;
+					padding: 2px 6px 3px;
+					text-decoration: none;
+					text-transform: capitalize;
+					color: $color3;
+					margin: 0 2px 7px 0;
+    				font-size: 14px;
+    				line-height: 17px;
+   					border: 1px solid #ddd;
+   					font-family: 'Lato', sans-serif;
+   					background: transparent;
+   					transition: all .4s;
+
+   					&:hover{
+   						background: $color1;
+   						color: white;
+   					}
+				}
+			}
+		}
+
+		.instagram-level{
+			width: 250px;
+			height: 410px;
+			/*background: green;*/
+			clear: both;
+			margin-top: 20px;
+			border-bottom: 1px solid #ddd;
+
+			.level-1{
+				text-align: center;
+				text-transform: uppercase;
+				font-family: 'Lato', sans-serif;
+				color: $color5;
+				font-weight: bold;
+				letter-spacing: .5px;
+				word-spacing: 2px;
+				margin-top: 25px;
+				
+			}
+
+			.level-2{
+				width: 250px;
+				height: 300px;
+				margin-top: 20px;
+				position: relative;
+
+				.level-item-1{
+					width: 220px;
+					height: 48px;
+					margin: auto;
+					background: white;
+					text-align: center;
+					line-height: 48px;
+					text-transform: uppercase;
+					font-size: 12px;
+					font-family: 'Lato', sans-serif;
+					word-spacing: 1.5px;
+					color: #4c4a47;
+					position: absolute;
+					left: 15px;
+					top: 50%;
+				}
+
+				.level-item-2{
+					width: auto;
+					height: auto;
+
+					li:nth-child(1){
+						width: 83px;
+						height: 83px;
+						float: left;
+
+						&:hover{
+							opacity: 0.8;
+							transition: all .2s ease-in-out;
+						}
+
+						a{
+							display: block;
+							width: 83px;
+							height: 83px;
+							text-decoration: none;
+							background: url('../images/instagram-thumbs (1).jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
+					}
+
+					li:nth-child(2){
+						width: 83px;
+						height: 83px;
+						float: left;
+
+						&:hover{
+							opacity: 0.8;
+							transition: all .2s ease-in-out;
+						}
+
+						a{
+							display: block;
+							width: 83px;
+							height: 83px;
+							text-decoration: none;
+							background: url('../images/instagram-thumbs-2.jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
+					}
+
+					li:nth-child(3){
+						width: 83px;
+						height: 83px;
+						float: left;
+
+						&:hover{
+							opacity: 0.8;
+							transition: all .2s ease-in-out;
+						}
+
+						a{
+							display: block;
+							width: 83px;
+							height: 83px;
+							text-decoration: none;
+							background: url('../images/instagram-thumbs-3.jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
+					}
+
+					li:nth-child(4){
+						width: 83px;
+						height: 83px;
+						float: left;
+
+						&:hover{
+							opacity: 0.8;
+							transition: all .2s ease-in-out;
+						}
+
+						a{
+							display: block;
+							width: 83px;
+							height: 83px;
+							text-decoration: none;
+							background: url('../images/instagram-thumbs-4.jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
+					}
+
+					li:nth-child(5){
+						width: 83px;
+						height: 83px;
+						float: left;
+
+						&:hover{
+							opacity: 0.8;
+							transition: all .2s ease-in-out;
+						}
+
+						a{
+							display: block;
+							width: 83px;
+							height: 83px;
+							text-decoration: none;
+							background: url('../images/instagram-thumbs-5.jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
+					}
+
+					li:nth-child(6){
+						width: 83px;
+						height: 83px;
+						float: left;
+
+						&:hover{
+							opacity: 0.8;
+							transition: all .2s ease-in-out;
+						}
+
+						a{
+							display: block;
+							width: 83px;
+							height: 83px;
+							text-decoration: none;
+							background: url('../images/instagram-thumbs-6.jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
+					}
+
+					li:nth-child(7){
+						width: 83px;
+						height: 83px;
+						float: left;
+
+						&:hover{
+							opacity: 0.8;
+							transition: all .2s ease-in-out;
+						}
+
+						a{
+							display: block;
+							width: 83px;
+							height: 83px;
+							text-decoration: none;
+							background: url('../images/instagram-thumbs-7.jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
+					}
+
+					li:nth-child(8){
+						width: 83px;
+						height: 83px;
+						float: left;
+
+						&:hover{
+							opacity: 0.8;
+							transition: all .2s ease-in-out;
+						}
+
+						a{
+							display: block;
+							width: 83px;
+							height: 83px;
+							text-decoration: none;
+							background: url('../images/instagram-thumbs-8.jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover;
+
+						}
+					}
+
+					li:nth-child(9){
+						width: 83px;
+						height: 83px;
+						float: left;
+
+						&:hover{
+							opacity: 0.8;
+							transition: all .2s ease-in-out;
+						}
+
+						a{
+							display: block;
+							width: 83px;
+							height: 83px;
+							text-decoration: none;
+							background: url('../images/instagram-thumbs-9.jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
+					}
+
+					li:nth-child(10){
+						width: 83px;
+						height: 83px;
+						float: left;
+
+						&:hover{
+							opacity: 0.8;
+							transition: all .2s ease-in-out;
+						}
+
+						a{
+							display: block;
+							width: 83px;
+							height: 83px;
+							text-decoration: none;
+							background: url('../images/instagram-thumbs-10.jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
+					}
+
+					li:nth-child(11){
+						width: 83px;
+						height: 83px;
+						float: left;
+
+						&:hover{
+							opacity: 0.8;
+							transition: all .2s ease-in-out;
+						}
+
+						a{
+							display: block;
+							width: 83px;
+							height: 83px;
+							text-decoration: none;
+							background: url('../images/instagram-thumbs-11.jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
+					}
+
+					li:nth-child(12){
+						width: 83px;
+						height: 83px;
+						float: left;
+
+						&:hover{
+							opacity: 0.8;
+							transition: all .2s ease-in-out;
+						}
+
+						a{
+							display: block;
+							width: 83px;
+							height: 83px;
+							text-decoration: none;
+							background: url('../images/instagram-thumbs-12.jpg') center center;
+							background-repeat: no-repeat;
+							background-size: cover;
+						}
+					}
+				}
+			}
+		}
+
+		.banner-spot-level{
+			width: 250px;
+			height: 333px;
+			margin-top: 40px;
+			background: url('../images/banner-spot.jpg') center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			cursor: pointer;
+		}
+	}
+
+	#instagram-level{
+		width: 1000px;
+		height: 365px;
+		/*background: green;*/
+		margin-top: 30px;
+		border-top: 1px solid #ddd;
+		position: relative;
+
+		.level-item-1{
+			width: 220px;
+			height: 48px;
+			margin: auto;
+			background: white;
+			text-align: center;
+			line-height: 48px;
+			text-transform: uppercase;
+			font-size: 12px;
+			font-family: 'Lato', sans-serif;
+			word-spacing: 1.5px;
+			color: #4c4a47;
+			position: absolute;
+			top: 50%;
+			left: 40%;
+		}
+
+		.level-item-2{
+			list-style: none;
+			width: auto;
+			height: auto;
+			margin-top: 40px;
+
+			li:nth-child(1){
+				width: 166px;
+				height: 166px;
+				float: left;
+
+				&:hover{
+					opacity: 0.8;
+					transition: all .2s ease-in-out;
+				}
+
+				a{
+					display: block;
+					width: 166px;
+					height: 166px;
+					text-decoration: none;
+					background: url('../images/instagram-thumbs (1).jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			li:nth-child(2){
+				width: 166px;
+				height: 166px;
+				float: left;
+
+				&:hover{
+					opacity: 0.8;
+					transition: all .2s ease-in-out;
+				}
+
+				a{
+					display: block;
+					width: 166px;
+					height: 166px;
+					text-decoration: none;
+					background: url('../images/instagram-thumbs-2.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			li:nth-child(3){
+				width: 166px;
+				height: 166px;
+				float: left;
+
+				&:hover{
+					opacity: 0.8;
+					transition: all .2s ease-in-out;
+				}
+
+				a{
+					display: block;
+					width: 166px;
+					height: 166px;
+					text-decoration: none;
+					background: url('../images/instagram-thumbs-3.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			li:nth-child(4){
+				width: 166px;
+				height: 166px;
+				float: left;
+
+				&:hover{
+					opacity: 0.8;
+					transition: all .2s ease-in-out;
+				}
+
+				a{
+					display: block;
+					width: 166px;
+					height: 166px;
+					text-decoration: none;
+					background: url('../images/instagram-thumbs-4.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			li:nth-child(5){
+				width: 166px;
+				height: 166px;
+				float: left;
+
+				&:hover{
+					opacity: 0.8;
+					transition: all .2s ease-in-out;
+				}
+
+				a{
+					display: block;
+					width: 166px;
+					height: 166px;
+					text-decoration: none;
+					background: url('../images/instagram-thumbs-5.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			li:nth-child(6){
+				width: 166px;
+				height: 166px;
+				float: left;
+
+				&:hover{
+					opacity: 0.8;
+					transition: all .2s ease-in-out;
+				}
+
+				a{
+					display: block;
+					width: 166px;
+					height: 166px;
+					text-decoration: none;
+					background: url('../images/instagram-thumbs-6.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			li:nth-child(7){
+				width: 166px;
+				height: 166px;
+				float: left;
+
+				&:hover{
+					opacity: 0.8;
+					transition: all .2s ease-in-out;
+				}
+
+				a{
+					display: block;
+					width: 166px;
+					height: 166px;
+					text-decoration: none;
+					background: url('../images/instagram-thumbs-7.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			li:nth-child(8){
+				width: 166px;
+				height: 166px;
+				float: left;
+
+				&:hover{
+					opacity: 0.8;
+					transition: all .2s ease-in-out;
+				}
+
+				a{
+					display: block;
+					width: 166px;
+					height: 166px;
+					text-decoration: none;
+					background: url('../images/instagram-thumbs-8.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			li:nth-child(9){
+				width: 166px;
+				height: 166px;
+				float: left;
+
+				&:hover{
+					opacity: 0.8;
+					transition: all .2s ease-in-out;
+				}
+
+				a{
+					display: block;
+					width: 166px;
+					height: 166px;
+					text-decoration: none;
+					background: url('../images/instagram-thumbs-9.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			li:nth-child(10){
+				width: 166px;
+				height: 166px;
+				float: left;
+
+				&:hover{
+					opacity: 0.8;
+					transition: all .2s ease-in-out;
+				}
+
+				a{
+					display: block;
+					width: 166px;
+					height: 166px;
+					text-decoration: none;
+					background: url('../images/instagram-thumbs-10.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			li:nth-child(11){
+				width: 166px;
+				height: 166px;
+				float: left;
+
+				&:hover{
+					opacity: 0.8;
+					transition: all .2s ease-in-out;
+				}
+
+				a{
+					display: block;
+					width: 166px;
+					height: 166px;
+					text-decoration: none;
+					background: url('../images/instagram-thumbs-11.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+
+			li:nth-child(12){
+				width: 166px;
+				height: 166px;
+				float: left;
+
+				&:hover{
+					opacity: 0.8;
+					transition: all .2s ease-in-out;
+				}
+
+				a{
+					display: block;
+					width: 166px;
+					height: 166px;
+					text-decoration: none;
+					background: url('../images/instagram-thumbs-12.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+nav{
+	width: auto;
+	height: auto;
+	text-align: center;
+
+
+	ul{
+		list-style: none;
+
+		li{
+			display: inline-block;
+
+			a{
+				display: block;
+				width: 150px;
+				height: 40px;
+				text-decoration: none;
+				line-height: 40px;
+				color: $color3;
+				font-family: verdana;
+				font-size: 12px;
+
+				&:hover{
+					color: black;
+				}
+			}
+
+			ul{
+				display: none;
+            	position: absolute;
+
+            	li{
+            		display: block;
+            		background: white;
+            		border-bottom: 1px solid $color6;
+            	}
+			}
+
+			&:hover ul{
+				display: block;
+			}
+		}
+	}
+}

@@ -1,0 +1,205 @@
+/*COLORS*/
+/*HEIGHTS*/
+@font-face {
+  font-family: emil;
+  src: url("../fonts/GreatVibes-Regular.ttf"); }
+header {
+  width: 100%;
+  height: 160px; }
+  header .container {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto; }
+    header .container .header-form {
+      margin-top: 50px;
+      width: auto;
+      height: auto;
+      display: inline-block; }
+      header .container .header-form input {
+        width: 150px;
+        height: 10px;
+        border: none;
+        background: #8DC63F;
+        padding: 15px;
+        font-style: italic;
+        color: white;
+        float: left; }
+      header .container .header-form button {
+        width: 60px;
+        height: 40px;
+        border: none;
+        background: #8DC63F;
+        float: left; }
+        header .container .header-form button i {
+          color: white;
+          font-size: 15px; }
+    header .container .header-middle {
+      width: auto;
+      height: auto;
+      display: inline-block;
+      text-align: center;
+      margin-left: 40px; }
+      header .container .header-middle a {
+        text-decoration: none;
+        font-family: emil;
+        font-size: 35px; }
+        header .container .header-middle a h1 {
+          color: #8DC63F; }
+          header .container .header-middle a h1 span {
+            color: red; }
+      header .container .header-middle p a {
+        color: #8DC63F; }
+    header .container .header-right {
+      width: auto;
+      height: auto;
+      display: inline-block;
+      margin-left: 70px;
+      text-align: center; }
+      header .container .header-right a {
+        text-decoration: none;
+        color: #666666; }
+        header .container .header-right a i {
+          letter-spacing: 9px; }
+      header .container .header-right p {
+        line-height: 2;
+        font-weight: bold; }
+
+nav {
+  width: auto;
+  height: auto;
+  text-align: center; }
+  nav ul {
+    list-style: none; }
+    nav ul li {
+      display: inline-block; }
+      nav ul li a {
+        display: block;
+        width: 150px;
+        height: 40px;
+        text-decoration: none;
+        line-height: 40px;
+        color: #666666;
+        font-family: verdana;
+        font-size: 12px; }
+        nav ul li a:hover {
+          color: black; }
+      nav ul li ul {
+        display: none;
+        position: absolute; }
+        nav ul li ul li {
+          display: block;
+          background: white;
+          border-bottom: 1px solid #716E6A; }
+      nav ul li:hover ul {
+        display: block; }
+
+#background {
+  width: 100%;
+  height: 500px;
+  background: url("../images/contact-cover.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block; }
+  #background .container {
+    width: 1000px;
+    height: 110px;
+    margin: 50px auto 0; }
+    #background .container .tobe {
+      font-family: verdana;
+      font-size: 28px;
+      color: white; }
+    #background .container .closer {
+      font-size: 33px;
+      font-family: arial;
+      color: white;
+      text-transform: uppercase;
+      line-height: 1.4; }
+    #background .container a {
+      display: inline-block;
+      width: 50px;
+      height: 30px;
+      text-align: left;
+      line-height: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      font-size: 20px; }
+      #background .container a:hover {
+        text-decoration: underline; }
+    #background .container span {
+      font-weight: bold;
+      color: white;
+      font-size: 20px; }
+
+.container {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto; }
+  .container #content {
+    width: 720px;
+    height: auto;
+    float: left;
+    padding: 40px 30px 0 0; }
+    .container #content .post {
+      width: 720px;
+      height: auto; }
+      .container #content .post header {
+        width: 720px;
+        height: 170px;
+        text-align: center; }
+        .container #content .post header span {
+          display: inline-block;
+          width: 210px;
+          height: 25px;
+          background: #8DC63F;
+          font-size: 11px;
+          color: white;
+          border-radius: 30px;
+          text-align: center;
+          line-height: 2;
+          font-family: lato; }
+        .container #content .post header h1 {
+          color: #21201F;
+          font-size: 30px;
+          margin-top: 20px;
+          line-height: 1.3;
+          width: 580px;
+          margin-left: 70px; }
+        .container #content .post header p {
+          color: #666666;
+          font-style: italic;
+          margin-top: 15px;
+          font-size: 20px; }
+          .container #content .post header p a {
+            text-decoration: none;
+            color: #8DC63F; }
+            .container #content .post header p a:hover {
+              text-decoration: underline; }
+      .container #content .post .post-thumb {
+        width: 720px;
+        height: 480px;
+        background: url("../images/author-3.png") center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 30px; }
+      .container #content .post .post-content {
+        width: 720px;
+        height: auto; }
+        .container #content .post .post-content p {
+          color: #21201F;
+          font-size: 19px;
+          word-spacing: 1px;
+          line-height: 1.4; }
+          .container #content .post .post-content p .capital-letter {
+            display: block;
+            float: left;
+            font-size: 40px;
+            line-height: 1;
+            font-family: verdana;
+            margin-right: 3px; }
+  .container #sidebar {
+    width: 250px;
+    height: auto;
+    float: left; }
+
+/*# sourceMappingURL=sbout.css.map */

@@ -1,0 +1,1419 @@
+/*COLORS*/
+/*HEIGHTS*/
+@font-face {
+  font-family: emil;
+  src: url("../fonts/GreatVibes-Regular.ttf"); }
+@font-face {
+  font-family: roboto;
+  scr: url("../fonts/Roboto-Regular.ttf"); }
+header {
+  width: 100%;
+  height: 160px; }
+  header .container {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto; }
+    header .container .header-form {
+      margin-top: 50px;
+      width: auto;
+      height: auto;
+      display: inline-block; }
+      header .container .header-form input {
+        width: 150px;
+        height: 10px;
+        border: none;
+        background: #8DC63F;
+        padding: 15px;
+        font-style: italic;
+        color: white;
+        float: left; }
+      header .container .header-form button {
+        width: 60px;
+        height: 40px;
+        border: none;
+        background: #8DC63F;
+        float: left; }
+        header .container .header-form button i {
+          color: white;
+          font-size: 15px; }
+    header .container .header-middle {
+      width: auto;
+      height: auto;
+      display: inline-block;
+      text-align: center;
+      margin-left: 40px; }
+      header .container .header-middle a {
+        text-decoration: none;
+        font-family: emil;
+        font-size: 35px; }
+        header .container .header-middle a h1 {
+          color: #8DC63F; }
+          header .container .header-middle a h1 span {
+            color: red; }
+      header .container .header-middle p a {
+        color: #8DC63F; }
+    header .container .header-right {
+      width: auto;
+      height: auto;
+      display: inline-block;
+      margin-left: 70px;
+      text-align: center; }
+      header .container .header-right a {
+        text-decoration: none;
+        color: #666666; }
+        header .container .header-right a i {
+          letter-spacing: 9px; }
+      header .container .header-right p {
+        line-height: 2;
+        font-weight: bold; }
+
+nav {
+  width: auto;
+  height: auto;
+  text-align: center; }
+  nav ul {
+    list-style: none; }
+    nav ul li {
+      display: inline-block; }
+      nav ul li a {
+        display: block;
+        width: 150px;
+        height: 40px;
+        text-decoration: none;
+        line-height: 40px;
+        color: #666666;
+        font-family: verdana;
+        font-size: 12px; }
+        nav ul li a:hover {
+          color: black; }
+      nav ul li ul {
+        display: none;
+        position: absolute; }
+        nav ul li ul li {
+          display: block;
+          background: white;
+          border-bottom: 1px solid #716E6A; }
+      nav ul li:hover ul {
+        display: block; }
+
+#background {
+  width: 100%;
+  height: 500px;
+  background: url("../images/contact-cover.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block; }
+  #background .container {
+    width: 1000px;
+    height: 110px;
+    margin: 50px auto 0; }
+    #background .container .tobe {
+      font-family: verdana;
+      font-size: 28px;
+      color: white; }
+    #background .container .closer {
+      font-size: 33px;
+      font-family: arial;
+      color: white;
+      text-transform: uppercase;
+      line-height: 1.4; }
+    #background .container a {
+      display: inline-block;
+      width: 50px;
+      height: 30px;
+      text-align: left;
+      line-height: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      font-size: 20px; }
+      #background .container a:hover {
+        text-decoration: underline; }
+    #background .container span {
+      font-weight: bold;
+      color: white;
+      font-size: 20px; }
+
+.container-content {
+  width: 1000px;
+  height: 2000px;
+  margin: auto; }
+  .container-content .main-content {
+    width: 730px;
+    height: auto;
+    float: left;
+    padding-right: 20px; }
+    .container-content .main-content .header-content {
+      width: 730px;
+      height: 170px;
+      text-align: center; }
+      .container-content .main-content .header-content .header-level {
+        display: inline-block;
+        width: 210px;
+        height: 25px;
+        background: #8DC63F;
+        color: white;
+        padding: 0 10px;
+        border-radius: 25px;
+        text-transform: uppercase;
+        line-height: 25px;
+        font-size: 13px;
+        font-family: lato; }
+      .container-content .main-content .header-content h1 {
+        font-size: 33px;
+        width: 580px;
+        line-height: 1.3;
+        margin: 10px auto;
+        word-spacing: 2px;
+        letter-spacing: 1px; }
+      .container-content .main-content .header-content p {
+        font-style: italic;
+        color: #666666;
+        font-size: 18px;
+        word-spacing: 1px;
+        letter-spacing: 1px; }
+        .container-content .main-content .header-content p .same-level {
+          text-decoration: none;
+          color: #8DC63F; }
+          .container-content .main-content .header-content p .same-level:hover {
+            text-decoration: underline; }
+    .container-content .main-content .article-content {
+      width: 730px;
+      height: auto; }
+      .container-content .main-content .article-content figure img {
+        width: 730px;
+        height: 480px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+      .container-content .main-content .article-content figure figcaption {
+        margin-top: 30px;
+        display: block;
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        color: #21201F;
+        line-height: 1.5;
+        word-spacing: 1.5px; }
+        .container-content .main-content .article-content figure figcaption::first-letter {
+          font-size: 35px;
+          float: left;
+          color: black;
+          font-weight: bold;
+          margin-right: 5px;
+          line-height: 1.2; }
+      .container-content .main-content .article-content .text-level {
+        clear: both;
+        width: 720px;
+        height: 135px;
+        margin-top: 20px;
+        border-left: 10px solid #8DC63F;
+        background: #f9f9f9; }
+        .container-content .main-content .article-content .text-level::before {
+          color: #8dc63f;
+          content: open-quote;
+          font-family: 'Lato', sans-serif;
+          font-size: 50px;
+          float: left;
+          margin: 15px; }
+        .container-content .main-content .article-content .text-level .text-level-1 {
+          font-size: 18px;
+          font-family: 'Lato', sans-serif;
+          color: #21201F;
+          line-height: 1.5;
+          word-spacing: 1.5px;
+          padding-top: 25px; }
+      .container-content .main-content .article-content .text-level-2 {
+        margin-top: 10px;
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        color: #21201F;
+        line-height: 1.5;
+        word-spacing: 1.5px;
+        padding-top: 25px; }
+    .container-content .main-content .text-header {
+      font-size: 30px;
+      margin-top: 35px; }
+    .container-content .main-content .text-content {
+      margin-top: 20px;
+      font-family: 'Lato', sans-serif;
+      font-size: 18px;
+      color: #21201F;
+      line-height: 1.5;
+      word-spacing: 1px; }
+    .container-content .main-content .location {
+      width: 730px;
+      height: 46px;
+      border-top: 1px solid #ddd;
+      border-bottom: 4px double #ddd;
+      margin-top: 20px;
+      font-family: 'Lato', sans-serif; }
+      .container-content .main-content .location .left-block {
+        width: 95px;
+        height: 46px;
+        float: left;
+        line-height: 46px; }
+      .container-content .main-content .location .right-block {
+        width: auto;
+        height: 46px;
+        float: right;
+        line-height: 46px; }
+        .container-content .main-content .location .right-block i {
+          margin-right: 10px; }
+          .container-content .main-content .location .right-block i:hover {
+            color: #8DC63F; }
+    .container-content .main-content .best-authors {
+      width: 730px;
+      height: 345px; }
+      .container-content .main-content .best-authors h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        padding-top: 20px; }
+      .container-content .main-content .best-authors .authors {
+        width: 730px;
+        height: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        .container-content .main-content .best-authors .authors .founder {
+          width: 140px;
+          height: 290px;
+          text-align: center; }
+          .container-content .main-content .best-authors .authors .founder .founder1 {
+            display: block;
+            width: 140px;
+            height: 210px;
+            background: url("../images/author-thumb-1.jpg") center center;
+            background-repeat: no-repeat;
+            background-size: cover; }
+          .container-content .main-content .best-authors .authors .founder h2 {
+            color: #8DC63F;
+            text-transform: uppercase;
+            font-family: 'Lato', sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+            margin-top: 10px;
+            letter-spacing: 1.5px; }
+          .container-content .main-content .best-authors .authors .founder p {
+            font-size: 20px;
+            font-family: 'Lato', sans-serif;
+            letter-spacing: 1px;
+            word-spacing: 1px;
+            margin-top: 5px; }
+        .container-content .main-content .best-authors .authors .journalist {
+          width: 140px;
+          height: 290px;
+          text-align: center; }
+          .container-content .main-content .best-authors .authors .journalist .journalist1 {
+            display: block;
+            width: 140px;
+            height: 210px;
+            background: url("../images/author-thumb-2.jpg") center center;
+            background-repeat: no-repeat;
+            background-size: cover; }
+          .container-content .main-content .best-authors .authors .journalist h2 {
+            color: #8DC63F;
+            text-transform: uppercase;
+            font-family: 'Lato', sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+            margin-top: 10px;
+            letter-spacing: 1.5px; }
+          .container-content .main-content .best-authors .authors .journalist p {
+            font-size: 20px;
+            font-family: 'Lato', sans-serif;
+            letter-spacing: 1px;
+            word-spacing: 1px;
+            margin-top: 5px; }
+        .container-content .main-content .best-authors .authors .blog {
+          width: 140px;
+          height: 290px;
+          text-align: center; }
+          .container-content .main-content .best-authors .authors .blog .blog1 {
+            display: block;
+            width: 140px;
+            height: 210px;
+            background: url("../images/author-thumb-3.jpg") center center;
+            background-repeat: no-repeat;
+            background-size: cover; }
+          .container-content .main-content .best-authors .authors .blog h2 {
+            color: #8DC63F;
+            text-transform: uppercase;
+            font-family: 'Lato', sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+            margin-top: 10px;
+            letter-spacing: 1.5px; }
+          .container-content .main-content .best-authors .authors .blog p {
+            font-size: 20px;
+            font-family: 'Lato', sans-serif;
+            letter-spacing: 1px;
+            word-spacing: 1px;
+            margin-top: 5px; }
+        .container-content .main-content .best-authors .authors .writer {
+          width: 140px;
+          height: 290px;
+          text-align: center; }
+          .container-content .main-content .best-authors .authors .writer .writer1 {
+            display: block;
+            width: 140px;
+            height: 210px;
+            background: url("../images/author-thumb-4.jpg") center center;
+            background-repeat: no-repeat;
+            background-size: cover; }
+          .container-content .main-content .best-authors .authors .writer h2 {
+            color: #8DC63F;
+            text-transform: uppercase;
+            font-family: 'Lato', sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+            margin-top: 10px;
+            letter-spacing: 1.5px; }
+          .container-content .main-content .best-authors .authors .writer p {
+            font-size: 20px;
+            font-family: 'Lato', sans-serif;
+            letter-spacing: 1px;
+            word-spacing: 1px;
+            margin-top: 5px; }
+  .container-content aside {
+    width: 250px;
+    height: auto;
+    float: right; }
+    .container-content aside .widget-level1 {
+      width: 250px;
+      height: 445px;
+      text-align: center;
+      border-bottom: 1px solid #ddd; }
+      .container-content aside .widget-level1 .widget-level2 {
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: .5px;
+        word-spacing: 1px; }
+      .container-content aside .widget-level1 .widget-level3 {
+        display: block;
+        width: 200px;
+        height: 200px;
+        background: url("../images/author2.jpg") center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 20px auto 0;
+        border-radius: 50%; }
+      .container-content aside .widget-level1 .widget-level4 {
+        color: #21201F;
+        font-family: emil;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        display: block;
+        margin-top: 20px; }
+      .container-content aside .widget-level1 .widget-level5 {
+        font-family: 'Lato', sans-serif;
+        color: #21201F;
+        line-height: 1.5;
+        width: 230px;
+        margin: 25px auto 0; }
+      .container-content aside .widget-level1 i {
+        margin: 30px 5px 0; }
+        .container-content aside .widget-level1 i:hover {
+          color: #8DC63F; }
+    .container-content aside .popular-recipes-level {
+      width: 250px;
+      height: 410px;
+      text-align: center;
+      margin-top: 30px;
+      border-bottom: 1px solid #ddd; }
+      .container-content aside .popular-recipes-level .level-1 {
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        color: #21201F;
+        font-weight: bold;
+        letter-spacing: .5px;
+        word-spacing: 2px; }
+      .container-content aside .popular-recipes-level .level-2 {
+        width: 250px;
+        height: auto;
+        list-style: none;
+        margin-top: 15px; }
+        .container-content aside .popular-recipes-level .level-2 .level-item-1 {
+          width: 250px;
+          height: 90px;
+          margin-top: 30px; }
+          .container-content aside .popular-recipes-level .level-2 .level-item-1 .level-item-left {
+            width: 90px;
+            height: 90px;
+            float: left; }
+            .container-content aside .popular-recipes-level .level-2 .level-item-1 .level-item-left a {
+              display: block;
+              width: 90px;
+              height: 90px;
+              background: url("../images/instagram-thumbs-2.jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+          .container-content aside .popular-recipes-level .level-2 .level-item-1 .level-item-right {
+            width: 140px;
+            height: 90px;
+            float: right; }
+            .container-content aside .popular-recipes-level .level-2 .level-item-1 .level-item-right a {
+              text-decoration: none;
+              color: black;
+              font-weight: bold;
+              font-family: 'Lato', sans-serif;
+              line-height: 1.3;
+              word-spacing: 1.5px; }
+            .container-content aside .popular-recipes-level .level-2 .level-item-1 .level-item-right .comment {
+              margin-top: 18px;
+              display: block;
+              color: #716E6A; }
+              .container-content aside .popular-recipes-level .level-2 .level-item-1 .level-item-right .comment i {
+                margin-right: 3px; }
+              .container-content aside .popular-recipes-level .level-2 .level-item-1 .level-item-right .comment i:nth-child(2) {
+                margin-left: 5px; }
+        .container-content aside .popular-recipes-level .level-2 .level-item-2 {
+          width: 250px;
+          height: 90px;
+          margin-top: 30px; }
+          .container-content aside .popular-recipes-level .level-2 .level-item-2 .level-item-left {
+            width: 90px;
+            height: 90px;
+            float: left; }
+            .container-content aside .popular-recipes-level .level-2 .level-item-2 .level-item-left a {
+              display: block;
+              width: 90px;
+              height: 90px;
+              background: url("../images/instagram-thumbs-4.jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+          .container-content aside .popular-recipes-level .level-2 .level-item-2 .level-item-right {
+            width: 140px;
+            height: 90px;
+            float: right; }
+            .container-content aside .popular-recipes-level .level-2 .level-item-2 .level-item-right a {
+              text-decoration: none;
+              color: black;
+              font-weight: bold;
+              font-family: 'Lato', sans-serif;
+              line-height: 1.3;
+              word-spacing: 1.5px; }
+            .container-content aside .popular-recipes-level .level-2 .level-item-2 .level-item-right .comment {
+              margin-top: 18px;
+              display: block;
+              color: #716E6A; }
+              .container-content aside .popular-recipes-level .level-2 .level-item-2 .level-item-right .comment i {
+                margin-right: 3px; }
+              .container-content aside .popular-recipes-level .level-2 .level-item-2 .level-item-right .comment i:nth-child(2) {
+                margin-left: 5px; }
+        .container-content aside .popular-recipes-level .level-2 .level-item-3 {
+          width: 250px;
+          height: 90px;
+          margin-top: 30px; }
+          .container-content aside .popular-recipes-level .level-2 .level-item-3 .level-item-left {
+            width: 90px;
+            height: 90px;
+            float: left; }
+            .container-content aside .popular-recipes-level .level-2 .level-item-3 .level-item-left a {
+              display: block;
+              width: 90px;
+              height: 90px;
+              background: url("../images/instagram-thumbs.jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+          .container-content aside .popular-recipes-level .level-2 .level-item-3 .level-item-right {
+            width: 140px;
+            height: 90px;
+            float: right; }
+            .container-content aside .popular-recipes-level .level-2 .level-item-3 .level-item-right a {
+              text-decoration: none;
+              color: black;
+              font-weight: bold;
+              font-family: 'Lato', sans-serif;
+              line-height: 1.3;
+              word-spacing: 1.5px; }
+            .container-content aside .popular-recipes-level .level-2 .level-item-3 .level-item-right .comment {
+              margin-top: 18px;
+              display: block;
+              color: #716E6A; }
+              .container-content aside .popular-recipes-level .level-2 .level-item-3 .level-item-right .comment i {
+                margin-right: 3px; }
+              .container-content aside .popular-recipes-level .level-2 .level-item-3 .level-item-right .comment i:nth-child(2) {
+                margin-left: 5px; }
+    .container-content aside .tags-cloud-level {
+      width: 250px;
+      height: 235px;
+      /*background: green;*/
+      margin-top: 20px;
+      border-bottom: 1px solid #ddd; }
+      .container-content aside .tags-cloud-level .level-1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        color: #21201F;
+        font-weight: bold;
+        letter-spacing: .5px;
+        word-spacing: 2px;
+        margin-top: 25px; }
+      .container-content aside .tags-cloud-level .level-2 {
+        width: 250px;
+        height: auto;
+        margin-top: 25px; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(1) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(1):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(2) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(2):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(3) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(3):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(4) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(4):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(5) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(5):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(6) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(6):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(7) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(7):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(8) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(8):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(9) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(9):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(10) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(10):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(11) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(11):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(12) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(12):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(13) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(13):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(13) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(13):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(14) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(14):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(15) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(15):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(16) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(16):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(17) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(17):hover {
+            background: #8DC63F;
+            color: white; }
+        .container-content aside .tags-cloud-level .level-2 a:nth-child(18) {
+          display: inline-block;
+          padding: 2px 6px 3px;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: #666666;
+          margin: 0 2px 7px 0;
+          font-size: 14px;
+          line-height: 17px;
+          border: 1px solid #ddd;
+          font-family: 'Lato', sans-serif;
+          background: transparent;
+          transition: all .4s; }
+          .container-content aside .tags-cloud-level .level-2 a:nth-child(18):hover {
+            background: #8DC63F;
+            color: white; }
+    .container-content aside .instagram-level {
+      width: 250px;
+      height: 410px;
+      /*background: green;*/
+      clear: both;
+      margin-top: 20px;
+      border-bottom: 1px solid #ddd; }
+      .container-content aside .instagram-level .level-1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        color: #21201F;
+        font-weight: bold;
+        letter-spacing: .5px;
+        word-spacing: 2px;
+        margin-top: 25px; }
+      .container-content aside .instagram-level .level-2 {
+        width: 250px;
+        height: 300px;
+        margin-top: 20px;
+        position: relative; }
+        .container-content aside .instagram-level .level-2 .level-item-1 {
+          width: 220px;
+          height: 48px;
+          margin: auto;
+          background: white;
+          text-align: center;
+          line-height: 48px;
+          text-transform: uppercase;
+          font-size: 12px;
+          font-family: 'Lato', sans-serif;
+          word-spacing: 1.5px;
+          color: #4c4a47;
+          position: absolute;
+          left: 15px;
+          top: 50%; }
+        .container-content aside .instagram-level .level-2 .level-item-2 {
+          width: auto;
+          height: auto; }
+          .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(1) {
+            width: 83px;
+            height: 83px;
+            float: left; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(1):hover {
+              opacity: 0.8;
+              transition: all .2s ease-in-out; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(1) a {
+              display: block;
+              width: 83px;
+              height: 83px;
+              text-decoration: none;
+              background: url("../images/instagram-thumbs (1).jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+          .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(2) {
+            width: 83px;
+            height: 83px;
+            float: left; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(2):hover {
+              opacity: 0.8;
+              transition: all .2s ease-in-out; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(2) a {
+              display: block;
+              width: 83px;
+              height: 83px;
+              text-decoration: none;
+              background: url("../images/instagram-thumbs-2.jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+          .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(3) {
+            width: 83px;
+            height: 83px;
+            float: left; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(3):hover {
+              opacity: 0.8;
+              transition: all .2s ease-in-out; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(3) a {
+              display: block;
+              width: 83px;
+              height: 83px;
+              text-decoration: none;
+              background: url("../images/instagram-thumbs-3.jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+          .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(4) {
+            width: 83px;
+            height: 83px;
+            float: left; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(4):hover {
+              opacity: 0.8;
+              transition: all .2s ease-in-out; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(4) a {
+              display: block;
+              width: 83px;
+              height: 83px;
+              text-decoration: none;
+              background: url("../images/instagram-thumbs-4.jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+          .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(5) {
+            width: 83px;
+            height: 83px;
+            float: left; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(5):hover {
+              opacity: 0.8;
+              transition: all .2s ease-in-out; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(5) a {
+              display: block;
+              width: 83px;
+              height: 83px;
+              text-decoration: none;
+              background: url("../images/instagram-thumbs-5.jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+          .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(6) {
+            width: 83px;
+            height: 83px;
+            float: left; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(6):hover {
+              opacity: 0.8;
+              transition: all .2s ease-in-out; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(6) a {
+              display: block;
+              width: 83px;
+              height: 83px;
+              text-decoration: none;
+              background: url("../images/instagram-thumbs-6.jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+          .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(7) {
+            width: 83px;
+            height: 83px;
+            float: left; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(7):hover {
+              opacity: 0.8;
+              transition: all .2s ease-in-out; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(7) a {
+              display: block;
+              width: 83px;
+              height: 83px;
+              text-decoration: none;
+              background: url("../images/instagram-thumbs-7.jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+          .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(8) {
+            width: 83px;
+            height: 83px;
+            float: left; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(8):hover {
+              opacity: 0.8;
+              transition: all .2s ease-in-out; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(8) a {
+              display: block;
+              width: 83px;
+              height: 83px;
+              text-decoration: none;
+              background: url("../images/instagram-thumbs-8.jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+          .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(9) {
+            width: 83px;
+            height: 83px;
+            float: left; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(9):hover {
+              opacity: 0.8;
+              transition: all .2s ease-in-out; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(9) a {
+              display: block;
+              width: 83px;
+              height: 83px;
+              text-decoration: none;
+              background: url("../images/instagram-thumbs-9.jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+          .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(10) {
+            width: 83px;
+            height: 83px;
+            float: left; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(10):hover {
+              opacity: 0.8;
+              transition: all .2s ease-in-out; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(10) a {
+              display: block;
+              width: 83px;
+              height: 83px;
+              text-decoration: none;
+              background: url("../images/instagram-thumbs-10.jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+          .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(11) {
+            width: 83px;
+            height: 83px;
+            float: left; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(11):hover {
+              opacity: 0.8;
+              transition: all .2s ease-in-out; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(11) a {
+              display: block;
+              width: 83px;
+              height: 83px;
+              text-decoration: none;
+              background: url("../images/instagram-thumbs-11.jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+          .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(12) {
+            width: 83px;
+            height: 83px;
+            float: left; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(12):hover {
+              opacity: 0.8;
+              transition: all .2s ease-in-out; }
+            .container-content aside .instagram-level .level-2 .level-item-2 li:nth-child(12) a {
+              display: block;
+              width: 83px;
+              height: 83px;
+              text-decoration: none;
+              background: url("../images/instagram-thumbs-12.jpg") center center;
+              background-repeat: no-repeat;
+              background-size: cover; }
+    .container-content aside .banner-spot-level {
+      width: 250px;
+      height: 333px;
+      margin-top: 40px;
+      background: url("../images/banner-spot.jpg") center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer; }
+  .container-content #instagram-level {
+    width: 1000px;
+    height: 365px;
+    /*background: green;*/
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    position: relative; }
+    .container-content #instagram-level .level-item-1 {
+      width: 220px;
+      height: 48px;
+      margin: auto;
+      background: white;
+      text-align: center;
+      line-height: 48px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-family: 'Lato', sans-serif;
+      word-spacing: 1.5px;
+      color: #4c4a47;
+      position: absolute;
+      top: 50%;
+      left: 40%; }
+    .container-content #instagram-level .level-item-2 {
+      list-style: none;
+      width: auto;
+      height: auto;
+      margin-top: 40px; }
+      .container-content #instagram-level .level-item-2 li:nth-child(1) {
+        width: 166px;
+        height: 166px;
+        float: left; }
+        .container-content #instagram-level .level-item-2 li:nth-child(1):hover {
+          opacity: 0.8;
+          transition: all .2s ease-in-out; }
+        .container-content #instagram-level .level-item-2 li:nth-child(1) a {
+          display: block;
+          width: 166px;
+          height: 166px;
+          text-decoration: none;
+          background: url("../images/instagram-thumbs (1).jpg") center center;
+          background-repeat: no-repeat;
+          background-size: cover; }
+      .container-content #instagram-level .level-item-2 li:nth-child(2) {
+        width: 166px;
+        height: 166px;
+        float: left; }
+        .container-content #instagram-level .level-item-2 li:nth-child(2):hover {
+          opacity: 0.8;
+          transition: all .2s ease-in-out; }
+        .container-content #instagram-level .level-item-2 li:nth-child(2) a {
+          display: block;
+          width: 166px;
+          height: 166px;
+          text-decoration: none;
+          background: url("../images/instagram-thumbs-2.jpg") center center;
+          background-repeat: no-repeat;
+          background-size: cover; }
+      .container-content #instagram-level .level-item-2 li:nth-child(3) {
+        width: 166px;
+        height: 166px;
+        float: left; }
+        .container-content #instagram-level .level-item-2 li:nth-child(3):hover {
+          opacity: 0.8;
+          transition: all .2s ease-in-out; }
+        .container-content #instagram-level .level-item-2 li:nth-child(3) a {
+          display: block;
+          width: 166px;
+          height: 166px;
+          text-decoration: none;
+          background: url("../images/instagram-thumbs-3.jpg") center center;
+          background-repeat: no-repeat;
+          background-size: cover; }
+      .container-content #instagram-level .level-item-2 li:nth-child(4) {
+        width: 166px;
+        height: 166px;
+        float: left; }
+        .container-content #instagram-level .level-item-2 li:nth-child(4):hover {
+          opacity: 0.8;
+          transition: all .2s ease-in-out; }
+        .container-content #instagram-level .level-item-2 li:nth-child(4) a {
+          display: block;
+          width: 166px;
+          height: 166px;
+          text-decoration: none;
+          background: url("../images/instagram-thumbs-4.jpg") center center;
+          background-repeat: no-repeat;
+          background-size: cover; }
+      .container-content #instagram-level .level-item-2 li:nth-child(5) {
+        width: 166px;
+        height: 166px;
+        float: left; }
+        .container-content #instagram-level .level-item-2 li:nth-child(5):hover {
+          opacity: 0.8;
+          transition: all .2s ease-in-out; }
+        .container-content #instagram-level .level-item-2 li:nth-child(5) a {
+          display: block;
+          width: 166px;
+          height: 166px;
+          text-decoration: none;
+          background: url("../images/instagram-thumbs-5.jpg") center center;
+          background-repeat: no-repeat;
+          background-size: cover; }
+      .container-content #instagram-level .level-item-2 li:nth-child(6) {
+        width: 166px;
+        height: 166px;
+        float: left; }
+        .container-content #instagram-level .level-item-2 li:nth-child(6):hover {
+          opacity: 0.8;
+          transition: all .2s ease-in-out; }
+        .container-content #instagram-level .level-item-2 li:nth-child(6) a {
+          display: block;
+          width: 166px;
+          height: 166px;
+          text-decoration: none;
+          background: url("../images/instagram-thumbs-6.jpg") center center;
+          background-repeat: no-repeat;
+          background-size: cover; }
+      .container-content #instagram-level .level-item-2 li:nth-child(7) {
+        width: 166px;
+        height: 166px;
+        float: left; }
+        .container-content #instagram-level .level-item-2 li:nth-child(7):hover {
+          opacity: 0.8;
+          transition: all .2s ease-in-out; }
+        .container-content #instagram-level .level-item-2 li:nth-child(7) a {
+          display: block;
+          width: 166px;
+          height: 166px;
+          text-decoration: none;
+          background: url("../images/instagram-thumbs-7.jpg") center center;
+          background-repeat: no-repeat;
+          background-size: cover; }
+      .container-content #instagram-level .level-item-2 li:nth-child(8) {
+        width: 166px;
+        height: 166px;
+        float: left; }
+        .container-content #instagram-level .level-item-2 li:nth-child(8):hover {
+          opacity: 0.8;
+          transition: all .2s ease-in-out; }
+        .container-content #instagram-level .level-item-2 li:nth-child(8) a {
+          display: block;
+          width: 166px;
+          height: 166px;
+          text-decoration: none;
+          background: url("../images/instagram-thumbs-8.jpg") center center;
+          background-repeat: no-repeat;
+          background-size: cover; }
+      .container-content #instagram-level .level-item-2 li:nth-child(9) {
+        width: 166px;
+        height: 166px;
+        float: left; }
+        .container-content #instagram-level .level-item-2 li:nth-child(9):hover {
+          opacity: 0.8;
+          transition: all .2s ease-in-out; }
+        .container-content #instagram-level .level-item-2 li:nth-child(9) a {
+          display: block;
+          width: 166px;
+          height: 166px;
+          text-decoration: none;
+          background: url("../images/instagram-thumbs-9.jpg") center center;
+          background-repeat: no-repeat;
+          background-size: cover; }
+      .container-content #instagram-level .level-item-2 li:nth-child(10) {
+        width: 166px;
+        height: 166px;
+        float: left; }
+        .container-content #instagram-level .level-item-2 li:nth-child(10):hover {
+          opacity: 0.8;
+          transition: all .2s ease-in-out; }
+        .container-content #instagram-level .level-item-2 li:nth-child(10) a {
+          display: block;
+          width: 166px;
+          height: 166px;
+          text-decoration: none;
+          background: url("../images/instagram-thumbs-10.jpg") center center;
+          background-repeat: no-repeat;
+          background-size: cover; }
+      .container-content #instagram-level .level-item-2 li:nth-child(11) {
+        width: 166px;
+        height: 166px;
+        float: left; }
+        .container-content #instagram-level .level-item-2 li:nth-child(11):hover {
+          opacity: 0.8;
+          transition: all .2s ease-in-out; }
+        .container-content #instagram-level .level-item-2 li:nth-child(11) a {
+          display: block;
+          width: 166px;
+          height: 166px;
+          text-decoration: none;
+          background: url("../images/instagram-thumbs-11.jpg") center center;
+          background-repeat: no-repeat;
+          background-size: cover; }
+      .container-content #instagram-level .level-item-2 li:nth-child(12) {
+        width: 166px;
+        height: 166px;
+        float: left; }
+        .container-content #instagram-level .level-item-2 li:nth-child(12):hover {
+          opacity: 0.8;
+          transition: all .2s ease-in-out; }
+        .container-content #instagram-level .level-item-2 li:nth-child(12) a {
+          display: block;
+          width: 166px;
+          height: 166px;
+          text-decoration: none;
+          background: url("../images/instagram-thumbs-12.jpg") center center;
+          background-repeat: no-repeat;
+          background-size: cover; }
+
+footer {
+  width: 100%;
+  height: 290px;
+  display: inline-block;
+  margin-top: 30px; }
+  footer .bottom1 {
+    width: 100%;
+    height: 240px;
+    background: #333333; }
+    footer .bottom1 .container {
+      width: 1000px;
+      height: auto;
+      margin: 0 auto; }
+      footer .bottom1 .container .block {
+        width: 250px;
+        height: 240px;
+        float: left;
+        font-family: verdana; }
+      footer .bottom1 .container .block1 a {
+        display: block;
+        width: 250px;
+        font-family: emil;
+        text-decoration: none;
+        color: #8DC63F;
+        font-size: 35px;
+        margin-top: 30px; }
+        footer .bottom1 .container .block1 a span {
+          color: red; }
+      footer .bottom1 .container .block1 .social {
+        list-style: none; }
+        footer .bottom1 .container .block1 .social li {
+          float: left; }
+          footer .bottom1 .container .block1 .social li a {
+            display: block;
+            width: 35px;
+            height: 35px;
+            text-align: center;
+            margin-top: 20px; }
+            footer .bottom1 .container .block1 .social li a i {
+              color: white;
+              font-size: 18px;
+              line-height: 35px; }
+      footer .bottom1 .container .block1 .writeus {
+        display: block;
+        width: 160px;
+        height: 20px;
+        background: #8DC63F;
+        margin-top: 80px;
+        border-radius: 3px;
+        color: white;
+        text-align: center;
+        font-family: verdana;
+        font-size: 16px;
+        text-decoration: none;
+        padding: 10px 15px; }
+        footer .bottom1 .container .block1 .writeus:hover {
+          background: red;
+          transition: .5s; }
+      footer .bottom1 .container .block2 {
+        text-align: left; }
+        footer .bottom1 .container .block2 h1 {
+          color: white;
+          font-family: verdana;
+          margin-top: 30px; }
+        footer .bottom1 .container .block2 p {
+          margin-top: 12px; }
+          footer .bottom1 .container .block2 p a {
+            text-decoration: none;
+            color: #e0e0e0;
+            font-size: 14px; }
+            footer .bottom1 .container .block2 p a:hover {
+              text-decoration: underline; }
+      footer .bottom1 .container .block3 {
+        text-align: left; }
+        footer .bottom1 .container .block3 h1 {
+          color: white;
+          font-family: verdana;
+          margin-top: 30px; }
+        footer .bottom1 .container .block3 p {
+          margin-top: 12px; }
+          footer .bottom1 .container .block3 p a {
+            text-decoration: none;
+            color: #e0e0e0;
+            font-size: 14px; }
+            footer .bottom1 .container .block3 p a:hover {
+              text-decoration: underline; }
+      footer .bottom1 .container .block4 {
+        text-align: left; }
+        footer .bottom1 .container .block4 h1 {
+          color: white;
+          font-family: verdana;
+          margin-top: 30px; }
+        footer .bottom1 .container .block4 p {
+          margin-top: 12px; }
+          footer .bottom1 .container .block4 p a {
+            text-decoration: none;
+            color: #e0e0e0;
+            font-size: 14px; }
+            footer .bottom1 .container .block4 p a:hover {
+              text-decoration: underline; }
+  footer .bottom2 {
+    width: 100%;
+    height: 50px;
+    background: #2A2A2A; }
+    footer .bottom2 .container {
+      width: 1000px;
+      height: auto;
+      margin: 0 auto; }
+      footer .bottom2 .container .copyright {
+        color: #e0e0e0;
+        line-height: 2.5; }
+        footer .bottom2 .container .copyright a {
+          text-decoration: none;
+          color: #8DC63F; }
+          footer .bottom2 .container .copyright a:hover {
+            text-decoration: underline; }
+
+/*# sourceMappingURL=about.css.map */
